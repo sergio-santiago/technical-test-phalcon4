@@ -1,0 +1,17 @@
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company/company/1" -d "{\"code_company\" : 1,\"name_company\" : \"name1\",\"country\" : \"country1\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company/company/2" -d "{\"code_company\" : 2,\"name_company\" : \"name2\",\"country\" : \"country2\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company/company/3" -d "{\"code_company\" : 3,\"name_company\" : \"name3\",\"country\" : \"country3\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company/company/4" -d "{\"code_company\" : 4,\"name_company\" : \"name4\",\"country\" : \"country4\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company/company/5" -d "{\"code_company\" : 5,\"name_company\" : \"name5\",\"country\" : \"country5\"}"
+
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/security/security/1" -d "{\"code_security\" : 1,\"instrument\" : \"instrument1\",\"bid\" : 1,\"ask\" : 1,\"yield\" : 1,\"high\" : 1,\"low\" : 1,\"currency\" : \"currency1\",\"date_price\" : \"2015-01-01\",\"time_price\" : \"1420070400001\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/security/security/2" -d "{\"code_security\" : 2,\"instrument\" : \"instrument2\",\"bid\" : 2,\"ask\" : 2,\"yield\" : 2,\"high\" : 2,\"low\" : 2,\"currency\" : \"currency2\",\"date_price\" : \"2015-01-01\",\"time_price\" : \"1420070400001\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/security/security/3" -d "{\"code_security\" : 3,\"instrument\" : \"instrument3\",\"bid\" : 3,\"ask\" : 3,\"yield\" : 3,\"high\" : 3,\"low\" : 3,\"currency\" : \"currency3\",\"date_price\" : \"2015-01-01\",\"time_price\" : \"1420070400001\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/security/security/4" -d "{\"code_security\" : 4,\"instrument\" : \"instrument4\",\"bid\" : 4,\"ask\" : 4,\"yield\" : 4,\"high\" : 4,\"low\" : 4,\"currency\" : \"currency4\",\"date_price\" : \"2015-01-01\",\"time_price\" : \"1420070400001\"}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/security/security/5" -d "{\"code_security\" : 5,\"instrument\" : \"instrument5\",\"bid\" : 5,\"ask\" : 5,\"yield\" : 5,\"high\" : 5,\"low\" : 5,\"currency\" : \"currency5\",\"date_price\" : \"2015-01-01\",\"time_price\" : \"1420070400001\"}"
+
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company_security/company_security/1" -d "{\"code_company_security\" : 1,\"code_company\" : 1,\"code_security\" : 1}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company_security/company_security/2" -d "{\"code_company_security\" : 2,\"code_company\" : 2,\"code_security\" : 2}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company_security/company_security/3" -d "{\"code_company_security\" : 3,\"code_company\" : 3,\"code_security\" : 3}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company_security/company_security/4" -d "{\"code_company_security\" : 4,\"code_company\" : 4,\"code_security\" : 4}"
+curl -H "Content-Type: application/json" -XPOST "http://localhost:9200/company_security/company_security/5" -d "{\"code_company_security\" : 5,\"code_company\" : 5,\"code_security\" : 5}"

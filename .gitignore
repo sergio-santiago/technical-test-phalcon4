@@ -1,0 +1,5 @@
+.idea/
+.phalcon/
+.docker/elasticsearch/data/
+.docker/mysql/data/
+vendor/

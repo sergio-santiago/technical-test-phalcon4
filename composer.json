@@ -1,0 +1,16 @@
+{
+  "name": "sergio-santiago/technical-test-phalcon4",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Sergio Santiago",
+      "email": "sersanhen@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phalcon/devtools": "^4.0"
+  }
+}
